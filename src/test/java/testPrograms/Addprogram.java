@@ -29,6 +29,6 @@ public class Addprogram
 			driver= new InternetExplorerDriver();
 		}
 		driver.get("https://www.google.com/");
-		driver.quit();
+		driver.close();
 	}
 }
